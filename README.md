@@ -1,13 +1,7 @@
-# Minimal Django
-A "Hello World" for Django...Because Django can be nearly as simple as Flask.
+# Protodj
 
-The aim of this repository is to highlight the fact that a Django project, when simplified down to the bare essentials, can be nearly as minimal as a micro-framework application. 
+This is a one-file minimal Django setup. I use it to run experimental stuff in a familiar environment on my local machine.
 
-### To run it:
+It's based on [syntarsus/minimal-django](https://github.com/syntarsus/minimal-django), but has templating and static file support added. It also includes a base template that loads the venerable JQuery and Bootstrap.
 
-1. Install [Python](https://www.python.org/downloads/)
-2. Install [Django](https://docs.djangoproject.com/en/dev/topics/install/). If you have pip: `pip install Django`
-3. Clone this repository: `git clone https://github.com/rnevius/minimal-django.git`
-4. Switch to the project directory: `cd minimal-django`
-5. Run the development server: `python minimal.py runserver`
-6. Open a browser to `http://127.0.0.1:8000/`
+No users. No db. It isn't secure. Run it with `python protodj.py runserver`.

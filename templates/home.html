@@ -1,0 +1,25 @@
+{% extends '_base.html' %}
+{% load static %}
+
+
+{% block title %}
+Hello World!
+{% endblock title %}
+
+
+{% block content %}
+<div class="row">
+    <div class="col-lg-12 text-center">
+        <h1 class="mt-5">Hello, World!</h1>
+        <p class="lead">Starter Template</p>
+        <ul class="list-unstyled">
+            <li>jQuery 3.4.1</li>
+            <li>Bootstrap 4.4.1</li>
+        </ul>
+    </div>
+</div>
+{% endblock content %}
+
+{% block javascript %}
+<script src="{% static 'home.js' %}"></script>
+{% endblock javascript %}
