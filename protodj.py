@@ -38,7 +38,7 @@ STATICFILES_DIRS = [
 
 # Views
 def home(request):
-    context = dict(title="Map")
+    context = dict(title="Home")
     return render(request, "home.html", context=context)
 
 
