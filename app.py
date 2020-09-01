@@ -47,5 +47,5 @@ urlpatterns = [
     path("", home, name="home"),
 ]
 
-# Run with "python [thisfile].py runserver"
+# Run with "python app.py runserver"
 execute_from_command_line(sys.argv)
